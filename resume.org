@@ -1,4 +1,5 @@
 #+TITLE: Ben Harvey - Resume
+#+SUBTITLE: Email: ben@harvey.onl
 #+EXPORT_FILE_NAME: Ben_Harvey-Resume
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
@@ -6,55 +7,68 @@
 #+OPTIONS: date:nil
 #+EXCLUDE_TAGS: noexport
 
+#+BEGIN_COMMENT
+#+SETUPFILE: latex-setup-file.org TODO: Get this template file working
+#+END_COMMENT
+
 Currently living and working in Newcastle NSW, Australia, I am a developer with a love for all things technology. I specialize as a full-stack engineer and have experience in developing solutions for both frontend and backend. My passion for innovative software solutions is supported by regular professional learning opportunities, undertaken in my personal time, which demonstrate I have a strong drive to stay at the forefront of web-based technologies. I am pragmatic in my approach to solving solutions and pride myself on finding simple solutions that fit the business need.
+
 Having worked extensively in teams of software developers I am comfortable communicating over a range of mediums including; face to face, video and voice conference and text based applications. During my career I have worked with a range of multiple cross -functional teams and find I have a natural aptitude when collaborating on everything from project design phases to technical architecture and implementation.
 
-
 * Skills
+
+During my career I been exposed to a number of different technology stacks. I feel confident both build new projects and maintaining existing projects using the following:
+
 ** Frontend
 
-I am confident in leading teams with the design and implementation of projects using the following:
+I have gained experience over many projects using a range of frontend technologies, these include:
 
-ReactJs
-Typescript
-HTML
-CSS
-Various testing frameworks
-Mocha
-Sinon
-Jest
-
+- React
+- Angular
+- Typescript
+- HTML
+- CSS
+- Various testing frameworks
+  + Mocha
+  + Sinon
+  + Jest
 
 ** Backend
 
 I have demonstrated my robust experience in the following languages and frameworks:
 
-NodeJS
-Typescript
-Express
-C# .net framework / .NET core
+- NodeJS
+- Typescript
+- Express
+- C# .net framework / .NET core
+- Python
+  + Django
 
 ** Infrastructure and DevOps
 
 I have used AWS cloud services to deploy and run cloud native applications and have exemplary knowledge and understanding of the following:
 
-Deploying applications using ECS
-AWS Lamba and API gateway
-Postgres
-DynamoDB
-S3
-Lamba and serverless applications
-General AWS deployments and networking
+- Deploying applications using ECS
+- AWS Lamba and API gateway
+- Postgres
+- DynamoDB
+- S3
+- Lamba and serverless applications
+- General AWS deployments and networking
 
 In addition to deploying applications to public clouds such as AWS I have an effective understanding of continuous deployment and integration practices. During my career, I have used multiple systems to implement build pipelines and feel confident in implementing these methodologies in any system or framework. The key products which I have utilized include:
 
-Buildkite
-Gitlab CI
+- Buildkite
+- Gitlab CI
 
+
+#+BEGIN_COMMENT
 To add to the skills listed above I have a strong interest in expanding my skill set and spend considerable time experimenting with new languages and frameworks. At present I am working with the following:
 
 Golang (programming language)
 Kubernetes (Container deployment tool)
+#+END_COMMENT
+
 
 
 * Career History

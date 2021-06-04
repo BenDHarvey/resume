@@ -15,7 +15,7 @@
 #+LATEX_HEADER: \usepackage{calc}           % for easier length calculations (infix notation)
 #+LATEX_HEADER: \usepackage{enumitem}       % for configuring list environments
 #+LATEX_HEADER: \usepackage{fancyhdr}       % for setting header and footer
-#+LATEX_HEADER: \usepackage{fontspec}       % for fonts
+%#+LATEX_HEADER: \usepackage{fontspec}       % for fonts
 #+LATEX_HEADER: \usepackage{geometry}       % for setting margins (\newgeometry)
 #+LATEX_HEADER: \usepackage{graphicx}       % for pictures
 #+LATEX_HEADER: \usepackage{microtype}      % for microtypography stuff
