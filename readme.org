@@ -1,0 +1,12 @@
+#+TITLE: Readme
+
+Export to pdf
+
+#+BEGIN_SRC
+emacs \
+    -u "$(id -un)" \
+    --batch \
+    --eval '(load user-init-file)' \
+    file_to_export.org \
+    -f org-latex-export-to-pdf
+#+END_SRC
