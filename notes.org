@@ -1,0 +1,7 @@
+* Inbox
+** [2021-06-04 Fri 15:08] Get the setup file working
+
+- Found a good latex template [[https://www.overleaf.com/latex/templates/1-dot-5-column-cv/rpcbqtrsgbxm][here]]
+- Started importing this into the repo
+- Watched this video to get things setup -> https://www.youtube.com/watch?v=0qHloGTT8XE
+  + Was super helpful as a starting point
