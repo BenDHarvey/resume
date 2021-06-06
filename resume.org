@@ -38,29 +38,57 @@ I have gained experience over many projects using a range of frontend technologi
 I have demonstrated my robust experience in the following languages and frameworks:
 
 - NodeJS
+  + Express
 - Typescript
-- Express
 - C# .net framework / .NET core
 - Python
   + Django
+- SQL
+  + Postgres
+  + MSSQL
+- Go
 
 ** Infrastructure and DevOps
+
+*** General
+
+Through my career I not only been involved with writing application but have enjoyed being involved with running applications. I have experience deploy, maintaing and monitoring application on a number of platform. Any deployment of code should start with a code first and Infrastructure as code approach, I have experience using the following IaaC (infrastructure as code) and configuration management tools:
+
+- Terraform
+- Ansible
+- AWS cloud formation
+- Docker
+  + Writing docker files for both development environments and deployment to production
+  + Docker-compose for orchestrating environments for development and testing
+
+*** AWS Cloud infrastrucutre
 
 I have used AWS cloud services to deploy and run cloud native applications and have exemplary knowledge and understanding of the following:
 
 - Deploying applications using ECS
 - AWS Lamba and API gateway
-- Postgres
+- RDS
 - DynamoDB
 - S3
 - Lamba and serverless applications
 - General AWS deployments and networking
 
+*** Continuouse integration and deployment
+
 In addition to deploying applications to public clouds such as AWS I have an effective understanding of continuous deployment and integration practices. During my career, I have used multiple systems to implement build pipelines and feel confident in implementing these methodologies in any system or framework. The key products which I have utilized include:
 
 - Buildkite
 - Gitlab CI
+- Bambo
+- Octopus deploy
 
+*** Kubernetes
+
+Recently I have seen the growing need for skills in running and deploying application on Kubernetes. Though I have not yet worked with a company that is using kubernetes in a production capacity I gained experience on personal projects with the following:
+
+- General kubernetes administration and application deployment
+- Helm
+- ArgoCD
 
 #+BEGIN_COMMENT
 To add to the skills listed above I have a strong interest in expanding my skill set and spend considerable time experimenting with new languages and frameworks. At present I am working with the following:
