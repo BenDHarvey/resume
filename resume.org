@@ -75,7 +75,7 @@ Kubernetes (Container deployment tool)
 
 ** January 2021 - Present, SwitchdIn
 
-Web Services Engineer
+*Web Services Engineer*
 
 Key responsibilities:
 
@@ -83,70 +83,70 @@ Part of a small team building web and mobile applications using Angular and Ioni
 
 ** March 2020 - Present, Mudbath
 
-Senior Software Developer
+*Senior Software Developer*
 
 Key responsibilities:
 
-Work with client requirements to design robust software systems
-Write and review project documentation and designs
-Implement code based on project requirements and brief
-Mentor junior team members through code review and 1 on 1 coding sessions
-Work as part of a cross functional team to meet client needs
+- Work with client requirements to design robust software systems
+- Write and review project documentation and designs
+- Implement code based on project requirements and brief
+- Mentor junior team members through code review and 1 on 1 coding sessions
+- Work as part of a cross functional team to meet client needs
 
 
 ** June 2019 - March 2020, nib Health Funds
 
-Senior Software Developer
+*Senior Software Developer*
 
 Key responsibilities:
 
-Leading delivery teams in day to day functions
-Mentoring of junior developers in:
-Coding practice
-System design and analysis
-Work as part of cross functional team to develop software solutions for internal and external facing customers
-Design technical solutions to meet business needs.
-Undertake preparation tasks to scope and design solutions
-Work with different business areas to ensure a cohesive approach to ensure design solutions meet requirements
-Maintain applications as part of business-as-usual operations
+- Leading delivery teams in day to day functions
+- Mentoring of junior developers in:
+- Coding practice
+- System design and analysis
+- Work as part of cross functional team to develop software solutions for internal and external facing customers
+- Design technical solutions to meet business needs.
+- Undertake preparation tasks to scope and design solutions
+- Work with different business areas to ensure a cohesive approach to ensure design solutions meet requirements
+- Maintain applications as part of business-as-usual operations
 
 
 ** 2017 - June 2019, nib Health Funds
 
-Full stack software developer
+*Full stack software developer*
 
 Key responsibilities:
 
-Work as part of cross functional team to develop software solutions for internal and external facing customers
-Design technical solutions to meet business needs.
-Undertake preparation task to scope and design solutions
-Work with different business areas to ensure a cohesive approach to ensure design solutions meet requirements
-Maintain applications as part of business-as-usual operations
+- Work as part of cross functional team to develop software solutions for internal and external facing customers
+- Design technical solutions to meet business needs.
+- Undertake preparation task to scope and design solutions
+- Work with different business areas to ensure a cohesive approach to ensure design solutions meet requirements
+- Maintain applications as part of business-as-usual operations
 
 
 ** 2016 - 2017, SwitchdIn
 
-Software Developer
+*Software Developer*
 
 Key responsibilities:
 
-Design and development of web platform frontend web stack (Postgres / Django / Nginx Angular JS on Amazon web services)
-Planning for scaling web platform
-Troubleshooting day to day issues
-Working with customer feedback to improve the overall experience of the web platform
+- Design and development of web platform frontend web stack (Postgres / Django / Nginx Angular JS on Amazon web services)
+- Planning for scaling web platform
+- Troubleshooting day to day issues
+- Working with customer feedback to improve the overall experience of the web platform
 
 ** 2015 - 2016, Forsythes Information Technology
 
-Software developer
+*Software developer*
 
 Key responsibilities:
 
-Working as part of a scrum team to produce web based solutions for clients
-Full stack development using Microsoft technologies
-Creating and maintaining internal and customer facing documentation
-Analysis of projects from high level through to task based detail
-Planning, Creating and maintaining customer and internal server infrastructure
-Creating and maintaining internal continuous delivery pipeline
+- Working as part of a scrum team to produce web based solutions for clients
+- Full stack development using Microsoft technologies
+- Creating and maintaining internal and customer facing documentation
+- Analysis of projects from high level through to task based detail
+- Planning, Creating and maintaining customer and internal server infrastructure
+- Creating and maintaining internal continuous delivery pipeline
 
 ** 2014 - 2015, Forsythes Information Technology
 
@@ -154,11 +154,11 @@ Level 1 Support Desk Engineer
 
 Key responsibilities
 
-Process and ticket management
-Troubleshooting customer workstation and server issues
-Troubleshooting customer network issues
-Working as part of a larger team to maintain client infrastructure
-Maintenance and improvement of internal and customer facing documentation
+- Process and ticket management
+- Troubleshooting customer workstation and server issues
+- Troubleshooting customer network issues
+- Working as part of a larger team to maintain client infrastructure
+- Maintenance and improvement of internal and customer facing documentation
 
 
 * Education
