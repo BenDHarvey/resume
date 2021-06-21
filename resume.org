@@ -7,10 +7,6 @@
 #+OPTIONS: date:nil
 #+EXCLUDE_TAGS: noexport
 
-#+BEGIN_COMMENT
-#+SETUPFILE: latex-setup-file.org TODO: Get this template file working
-#+END_COMMENT
-
 Currently living and working in Newcastle NSW, Australia, I am a developer with a love for all things technology. I specialize as a full-stack engineer and have experience in developing solutions for both frontend and backend. My passion for innovative software solutions is supported by regular professional learning opportunities, undertaken in my personal time, which demonstrate I have a strong drive to stay at the forefront of web-based technologies. I am pragmatic in my approach to solving solutions and pride myself on finding simple solutions that fit the business need.
 
 Having worked extensively in teams of software developers I am comfortable communicating over a range of mediums including; face to face, video and voice conference and text based applications. During my career I have worked with a range of multiple cross -functional teams and find I have a natural aptitude when collaborating on everything from project design phases to technical architecture and implementation.
@@ -24,6 +20,9 @@ During my career I been exposed to a number of different technology stacks. I fe
 I have gained experience over many projects using a range of frontend technologies, these include:
 
 - React
+  + Vanila React
+  + NextJS
+  + Gatsby
 - Angular
 - Typescript
 - HTML
@@ -39,6 +38,7 @@ I have demonstrated my robust experience in the following languages and framewor
 
 - NodeJS
   + Express
+  + NestJS
 - Typescript
 - C# .net framework / .NET core
 - Python
@@ -52,7 +52,9 @@ I have demonstrated my robust experience in the following languages and framewor
 
 *** General
 
-Through my career I not only been involved with writing application but have enjoyed being involved with running applications. I have experience deploy, maintaing and monitoring application on a number of platform. Any deployment of code should start with a code first and Infrastructure as code approach, I have experience using the following IaaC (infrastructure as code) and configuration management tools:
+Through my career I not only been involved with writing application but have enjoyed being involved with designing and implementing the platforms that they run on. I have experience deploying, maintaining and monitoring application on a number of platforms.
+
+I have experience with the following infrastructure as code and configuration management tools:
 
 - Terraform
 - Ansible
@@ -61,9 +63,9 @@ Through my career I not only been involved with writing application but have enj
   + Writing docker files for both development environments and deployment to production
   + Docker-compose for orchestrating environments for development and testing
 
-*** AWS Cloud infrastrucutre
+*** AWS Cloud infrastructure
 
-I have used AWS cloud services to deploy and run cloud native applications and have exemplary knowledge and understanding of the following:
+I have used AWS (Amazon web services) to deploy and run cloud native applications and have exemplary knowledge and understanding of the following:
 
 - Deploying applications using ECS
 - AWS Lamba and API gateway
@@ -72,10 +74,11 @@ I have used AWS cloud services to deploy and run cloud native applications and h
 - S3
 - Lamba and serverless applications
 - General AWS deployments and networking
+- Route53
 
-*** Continuouse integration and deployment
+*** Continuous integration and deployment
 
-In addition to deploying applications to public clouds such as AWS I have an effective understanding of continuous deployment and integration practices. During my career, I have used multiple systems to implement build pipelines and feel confident in implementing these methodologies in any system or framework. The key products which I have utilized include:
+In addition to deploying applications to public clouds such as AWS I have a robust understanding of continuous deployment and integration practices. During my career, I have used multiple systems to implement build pipelines and feel confident in implementing these methodologies in any system or framework. The key products which I have utilised include:
 
 - Buildkite
 - Gitlab CI
@@ -90,15 +93,6 @@ Recently I have seen the growing need for skills in running and deploying applic
 - Helm
 - ArgoCD
 
-#+BEGIN_COMMENT
-To add to the skills listed above I have a strong interest in expanding my skill set and spend considerable time experimenting with new languages and frameworks. At present I am working with the following:
-
-Golang (programming language)
-Kubernetes (Container deployment tool)
-#+END_COMMENT
-
-
-
 * Career History
 
 ** January 2021 - Present, SwitchdIn
@@ -107,7 +101,10 @@ Kubernetes (Container deployment tool)
 
 Key responsibilities:
 
-Part of a small team building web and mobile applications using Angular and Ionic. Working closely with our backend team to design and implement new features for the our main customer focused product.
+- Work as part of a small team to build and maintain a customer focused cross-platform mobile app using Angular and Ionic
+- Contribute as a core member of the backend team to improve and maintain an internal API using Python and Django
+- Participate in planning sessions and workshops to refine new ideas and prepare documentation and work plans ready for implementation
+- Mentor junior team members through code review and 1 on 1 coding sessions
 
 ** March 2020 - Present, Mudbath
 
