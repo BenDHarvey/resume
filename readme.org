@@ -1,3 +1,7 @@
 #+TITLE: Readme
 
-This respoitory contains my personal resume.
+This repository contains my personal resume.
+
+[[https://github.com/BenDHarvey/resume/blob/dev/resume.org][Online version]]
+
+[[https://github.com/BenDHarvey/resume/blob/dev/Ben_Harvey-Resume.pdf][PDF version]]
