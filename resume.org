@@ -63,26 +63,25 @@ I have experience with the following infrastructure as code and configuration ma
   + Writing docker files for both development environments and deployment to production
   + Docker-compose for orchestrating environments for development and testing
 
-*** AWS Cloud infrastructure
+*** Cloud Infrastructure
 
-I have used AWS (Amazon web services) to deploy and run cloud native applications and have exemplary knowledge and understanding of the following:
+I have designed and deployed application to run on multiple cloud vendors and platforms. These include:
 
-- Deploying applications using ECS
-- AWS Lamba and API gateway
-- RDS
-- DynamoDB
-- S3
-- Lamba and serverless applications
-- General AWS deployments and networking
-- Route53
+- AWS
+- GCP
+- Vercel
+- Kubernetes
+
+I am comfortable maintaining existing solutions as well as designing and building new solutions on the platforms listed above.
+
 
 *** Continuous integration and deployment
 
 In addition to deploying applications to public clouds such as AWS I have a robust understanding of continuous deployment and integration practices. During my career, I have used multiple systems to implement build pipelines and feel confident in implementing these methodologies in any system or framework. The key products which I have utilised include:
 
+- Github Actions
 - Buildkite
 - Gitlab CI
-- Bambo
 - Octopus deploy
 
 *** Kubernetes
@@ -95,7 +94,18 @@ Recently I have seen the growing need for skills in running and deploying applic
 
 * Career History
 
-** January 2021 - Present, SwitchdIn
+** August 2021 - Present, BodyMindLife Online
+
+*Senior Engineer*
+
+Key responsibilities:
+
+- Leading a small team of developers build and maintain core online platform
+- Implement and lead team workflow planning and day to day operations
+- Architect and advise on core infrastructure and technical direction
+- Planning and building second iteration of online platform using GCP and micro-services patterns
+
+** January 2021 - August 2021, SwitchdIn
 
 *Web Services Engineer*
 
