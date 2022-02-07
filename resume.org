@@ -100,7 +100,7 @@ Recently I have seen the growing need for skills in running and deploying applic
 
 Key responsibilities:
 
-- Leading a small team of developers build and maintain core online platform
+- Leading a small team of developers to build and maintain core online platform
 - Implement and lead team workflow planning and day to day operations
 - Architect and advise on core infrastructure and technical direction
 - Planning and building second iteration of online platform using GCP and micro-services patterns
