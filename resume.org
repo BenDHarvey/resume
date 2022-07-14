@@ -123,7 +123,7 @@ Key responsibilities:
 - Participate in planning sessions and workshops to refine new ideas and prepare documentation and work plans ready for implementation
 - Mentor junior team members through code review and 1 on 1 coding sessions
 
-** March 2020 - Present, Mudbath
+** March 2020 - January 2021, Mudbath
 
 *Senior Software Developer*
 
