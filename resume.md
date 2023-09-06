@@ -1,6 +1,4 @@
----
-title: Ben Harvey - Resume
----
+# Ben Harvey - resume
 
 Currently living and working in Newcastle NSW, Australia, I am a developer with a love for all things technology. I specialize as a full-stack engineer and have experience in developing solutions for both frontend and backend. My passion for innovative software solutions is supported by regular professional learning opportunities, undertaken in my personal time, which demonstrate I have a strong drive to stay at the forefront of web-based technologies. I am pragmatic in my approach to solving solutions and pride myself on finding simple solutions that fit the business need.
 
