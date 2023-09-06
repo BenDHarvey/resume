@@ -1,56 +1,51 @@
-#+TITLE: Ben Harvey - Resume
-#+SUBTITLE: Email: ben@harvey.onl
-#+EXPORT_FILE_NAME: Ben_Harvey-Resume
-#+OPTIONS: toc:nil
-#+OPTIONS: num:nil
-#+OPTIONS: author:nil
-#+OPTIONS: date:nil
-#+EXCLUDE_TAGS: noexport
+---
+title: Ben Harvey - Resume
+---
 
 Currently living and working in Newcastle NSW, Australia, I am a developer with a love for all things technology. I specialize as a full-stack engineer and have experience in developing solutions for both frontend and backend. My passion for innovative software solutions is supported by regular professional learning opportunities, undertaken in my personal time, which demonstrate I have a strong drive to stay at the forefront of web-based technologies. I am pragmatic in my approach to solving solutions and pride myself on finding simple solutions that fit the business need.
 
 Having worked extensively in teams of software developers I am comfortable communicating over a range of mediums including; face to face, video and voice conference and text based applications. During my career I have worked with a range of multiple cross -functional teams and find I have a natural aptitude when collaborating on everything from project design phases to technical architecture and implementation.
 
-* Skills
+# Skills
 
 During my career I been exposed to a number of different technology stacks. I feel confident both build new projects and maintaining existing projects using the following:
 
-** Frontend
+## Frontend
 
 I have gained experience over many projects using a range of frontend technologies, these include:
 
 - React
-  + Vanila React
-  + NextJS
-  + Gatsby
+  - Vanila React
+  - NextJS
+  - Gatsby
 - Angular
 - Typescript
 - HTML
 - CSS
 - Various testing frameworks
-  + Mocha
-  + Sinon
-  + Jest
+  - Mocha
+  - Sinon
+  - Jest
 
-** Backend
+## Backend
 
 I have demonstrated my robust experience in the following languages and frameworks:
 
 - NodeJS
-  + Express
-  + NestJS
+  - Express
+  - NestJS
 - Typescript
 - C# .net framework / .NET core
 - Python
-  + Django
+  - Django
 - SQL
-  + Postgres
-  + MSSQL
+  - Postgres
+  - MSSQL
 - Go
 
-** Infrastructure and DevOps
+## Infrastructure and DevOps
 
-*** General
+### General
 
 Through my career I not only been involved with writing application but have enjoyed being involved with designing and implementing the platforms that they run on. I have experience deploying, maintaining and monitoring application on a number of platforms.
 
@@ -60,10 +55,10 @@ I have experience with the following infrastructure as code and configuration ma
 - Ansible
 - AWS cloud formation
 - Docker
-  + Writing docker files for both development environments and deployment to production
-  + Docker-compose for orchestrating environments for development and testing
+  - Writing docker files for both development environments and deployment to production
+  - Docker-compose for orchestrating environments for development and testing
 
-*** Cloud Infrastructure
+### Cloud Infrastructure
 
 I have designed and deployed application to run on multiple cloud vendors and platforms. These include:
 
@@ -74,8 +69,7 @@ I have designed and deployed application to run on multiple cloud vendors and pl
 
 I am comfortable maintaining existing solutions as well as designing and building new solutions on the platforms listed above.
 
-
-*** Continuous integration and deployment
+### Continuous integration and deployment
 
 In addition to deploying applications to public clouds such as AWS I have a robust understanding of continuous deployment and integration practices. During my career, I have used multiple systems to implement build pipelines and feel confident in implementing these methodologies in any system or framework. The key products which I have utilised include:
 
@@ -84,7 +78,7 @@ In addition to deploying applications to public clouds such as AWS I have a robu
 - Gitlab CI
 - Octopus deploy
 
-*** Kubernetes
+### Kubernetes
 
 Recently I have seen the growing need for skills in running and deploying application on Kubernetes. Though I have not yet worked with a company that is using kubernetes in a production capacity I gained experience on personal projects with the following:
 
@@ -92,11 +86,19 @@ Recently I have seen the growing need for skills in running and deploying applic
 - Helm
 - ArgoCD
 
-* Career History
+# Career History
 
-** August 2021 - Present, BodyMindLife Online
+## March 2022 - Present, nib Health Funds
 
-*Senior Engineer*
+_Senior Software Developer_
+
+Key responsibilities:
+
+- TODO: Add some details here
+
+## August 2021 - March 2022, BodyMindLife Online
+
+_Senior Engineer_
 
 Key responsibilities:
 
@@ -105,9 +107,9 @@ Key responsibilities:
 - Architect and advise on core infrastructure and technical direction
 - Planning and building second iteration of online platform using GCP and micro-services patterns
 
-** January 2021 - August 2021, SwitchdIn
+## January 2021 - August 2021, SwitchdIn
 
-*Web Services Engineer*
+_Web Services Engineer_
 
 Key responsibilities:
 
@@ -116,9 +118,9 @@ Key responsibilities:
 - Participate in planning sessions and workshops to refine new ideas and prepare documentation and work plans ready for implementation
 - Mentor junior team members through code review and 1 on 1 coding sessions
 
-** March 2020 - Present, Mudbath
+## March 2020 - January 2021, Mudbath
 
-*Senior Software Developer*
+_Senior Software Developer_
 
 Key responsibilities:
 
@@ -128,10 +130,9 @@ Key responsibilities:
 - Mentor junior team members through code review and 1 on 1 coding sessions
 - Work as part of a cross functional team to meet client needs
 
+## June 2019 - March 2020, nib Health Funds
 
-** June 2019 - March 2020, nib Health Funds
-
-*Senior Software Developer*
+_Senior Software Developer_
 
 Key responsibilities:
 
@@ -145,10 +146,9 @@ Key responsibilities:
 - Work with different business areas to ensure a cohesive approach to ensure design solutions meet requirements
 - Maintain applications as part of business-as-usual operations
 
+## 2017 - June 2019, nib Health Funds
 
-** 2017 - June 2019, nib Health Funds
-
-*Full stack software developer*
+_Full stack software developer_
 
 Key responsibilities:
 
@@ -158,10 +158,9 @@ Key responsibilities:
 - Work with different business areas to ensure a cohesive approach to ensure design solutions meet requirements
 - Maintain applications as part of business-as-usual operations
 
+## 2016 - 2017, SwitchdIn
 
-** 2016 - 2017, SwitchdIn
-
-*Software Developer*
+_Software Developer_
 
 Key responsibilities:
 
@@ -170,9 +169,9 @@ Key responsibilities:
 - Troubleshooting day to day issues
 - Working with customer feedback to improve the overall experience of the web platform
 
-** 2015 - 2016, Forsythes Information Technology
+## 2015 - 2016, Forsythes Information Technology
 
-*Software developer*
+_Software developer_
 
 Key responsibilities:
 
@@ -183,9 +182,9 @@ Key responsibilities:
 - Planning, Creating and maintaining customer and internal server infrastructure
 - Creating and maintaining internal continuous delivery pipeline
 
-** 2014 - 2015, Forsythes Information Technology
+## 2014 - 2015, Forsythes Information Technology
 
-*Level 1 Support Desk Engineer*
+_Level 1 Support Desk Engineer_
 
 Key responsibilities
 
@@ -195,23 +194,21 @@ Key responsibilities
 - Working as part of a larger team to maintain client infrastructure
 - Maintenance and improvement of internal and customer facing documentation
 
+# Education
 
-* Education
-
-** 2011-2014. Newcastle University
+## 2011-2014. Newcastle University
 
 Bachelor Information Technology
 Major: Software Development and Applications
 
-** 2009-2010. TAFE Hunter Institute.
+## 2009-2010. TAFE Hunter Institute
 
 Diploma of Surveying
 
-** Hunter School Of Performing Arts
+## Hunter School Of Performing Arts
 
 High School Certificate
 
-
-* References
+# References
 
 I am able to provide references on request.
