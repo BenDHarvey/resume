@@ -1,4 +1,17 @@
-# Ben Harvey - resume
+---
+name: "Ben Harvey"
+position: "Senior Software Engineer"
+email: "ben@harvey.onl"
+github: "https://github.com/bendharvey"
+location: "Australia, NSW, Newcastle"
+---
+# Ben Harvey
+
+## Senior Software Engineer
+
+📧 [ben@harvey.onl](mailto:ben@harvey.onl)  
+🌐 [GitHub: bendharvey](https://github.com/bendharvey)  
+📍 Location: Australia, NSW, Newcastle
 
 ## Professional Summary
 
