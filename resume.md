@@ -136,7 +136,12 @@ _2015 - 2016_
 
 ## Education
 
-*Bachelor of Information Technology | Newcastle University (2011-2014)*
-_Major: Software Development and Applications_
-*Diploma of Surveying | TAFE Hunter Institute (2009-2010)*
-*High School Certificate | Hunter School of Performing Arts*
+**Bachelor of Information Technology**  
+_Newcastle University_ (2011–2014)  
+*Major: Software Development and Applications*
+
+**Diploma of Surveying**  
+_TAFE Hunter Institute_ (2009–2010)
+
+**High School Certificate**  
+_Hunter School of Performing Arts_
