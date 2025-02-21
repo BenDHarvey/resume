@@ -42,7 +42,7 @@ I thrive in collaborative environments and have extensive experience working wit
 
 - Cloud Platforms & Architecture
   - AWS (ECS, Lambda, Connect)
-  - GCP (Cloud Run, Cloud Functions)
+  - GCP
   - Vercel
 
 - Infrastructure as Code
