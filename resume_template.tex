@@ -36,15 +36,18 @@
 \titleformat{\section}
   {\normalfont\Large\bfseries\color{accent}}
   {}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{12pt}{8pt}
+\titlespacing{\section}{0pt}{15pt}{10pt} % Increase space below section
 
 \titleformat{\subsection}
   {\normalfont\bfseries}
   {}{0em}{}
-\titlespacing{\subsection}{0pt}{10pt}{4pt}
+\titlespacing{\subsection}{0pt}{12pt}{8pt} % Increase space below subsection
 
 % Configure lists
 \setlist[itemize]{leftmargin=1.5em, label=\textbullet, itemsep=0.2em}
+
+% Disable paragraph indentation
+\setlength{\parindent}{0pt}
 
 % Define \tightlist command that Pandoc uses
 \providecommand{\tightlist}{%

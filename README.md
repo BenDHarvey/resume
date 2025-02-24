@@ -21,7 +21,7 @@ If you have Nix with flakes support installed:
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/username/resume.git
+   git clone https://github.com/BenDHarvey/resume.git
    cd resume
    ```
 
@@ -32,7 +32,7 @@ If you have Nix with flakes support installed:
 
 3. Generate the PDF
    ```bash
-   pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex
+   pandoc resume.md --template=resume.tex -o ben-harvey_resume.pdf --pdf-engine=xelatex
    ```
 
 4. Alternatively, use the provided app directly
@@ -62,7 +62,7 @@ If you don't use Nix:
 
 2. Generate the PDF
    ```bash
-   pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex
+   pandoc resume.md --template=resume.tex -o ben-harvey_resume.pdf --pdf-engine=xelatex
    ```
 
 ## Updating Your Resume
@@ -71,7 +71,7 @@ If you don't use Nix:
 2. Regenerate the PDF as described above
 3. If you want continuous rebuilding while editing, use:
    ```bash
-   watchexec -e md,tex "pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex"
+   watchexec -e md,tex "pandoc resume.md --template=resume.tex -o ben-harvey_resume.pdf --pdf-engine=xelatex"
    ```
 
 ## Customizing the Template

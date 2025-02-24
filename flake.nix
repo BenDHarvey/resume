@@ -28,8 +28,8 @@
             echo "Resume generation environment activated!"
             echo ""
             echo "Available commands:"
-            echo "  - Generate PDF:   pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex"
-            echo "  - Watch changes:  watchexec -e md,tex \"pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex\""
+            echo "  - Generate PDF:   pandoc resume.md --template=resume.tex -o ben-harvey_resume.pdf --pdf-engine=xelatex"
+            echo "  - Watch changes:  watchexec -e md,tex \"pandoc resume.md --template=resume.tex -o ben-harvey_resume.pdf --pdf-engine=xelatex\""
             echo ""
             echo "Tip: Use the watch command to automatically rebuild when files change"
             echo ""
@@ -40,7 +40,7 @@
         apps.default = {
           type = "app";
           program = toString (pkgs.writeShellScript "generate-resume" ''
-            ${pkgs.pandoc}/bin/pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex
+            ${pkgs.pandoc}/bin/pandoc resume.md --template=resume.tex -o ben-harvey_resume.pdf --pdf-engine=xelatex
             echo "Resume PDF generated!"
           '');
         };
