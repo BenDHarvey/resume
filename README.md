@@ -1,147 +1,86 @@
----
-name: "Ben Harvey"
-position: "Senior Software Engineer"
-email: "ben@harvey.onl"
-github: "https://github.com/bendharvey"
-location: "Australia, NSW, Newcastle"
----
-# Ben Harvey
+# Resume Repository
 
-## Senior Software Engineer
+This repository contains my professional resume in markdown format, along with tools to convert it to a nicely formatted PDF using Pandoc and LaTeX.
 
-📧 [ben@harvey.onl](mailto:ben@harvey.onl)  
-🌐 [GitHub: bendharvey](https://github.com/bendharvey)  
-📍 Location: Australia, NSW, Newcastle
+## Contents
 
-## Professional Summary
+- `resume.md` - The resume content in Markdown format
+- `resume.tex` - LaTeX template for PDF generation
+- `flake.nix` - Nix flake for reproducible build environment
 
-I'm a full-stack software engineer based in Newcastle NSW, Australia, with a passion for building innovative technology solutions. My expertise spans frontend and backend development, with a particular focus on creating practical, business-focused solutions. I continually expand my knowledge through self-directed learning to stay current with emerging web technologies.
-I thrive in collaborative environments and have extensive experience working with cross-functional teams. Whether it's during project design, technical architecture discussions, or implementation phases, I communicate effectively across various channels including in-person, video, and text-based platforms.
+## Requirements
 
-## Technical Skills
-### Frontend Development
+To generate the PDF resume, you'll need either:
 
-- Modern React (Next.js, Gatsby, React Query)
-- Angular & TypeScript
-- UI/UX Design Principles
-- Testing (Jest, React Testing Library)
-- State Management (Redux, Context API)
+1. **Nix with flakes** (recommended): Provides a completely reproducible environment
+2. **Manual setup**: Pandoc and a full LaTeX distribution (including XeLaTeX)
 
-### Backend Development
+## Quick Start with Nix
 
-- Node.js Ecosystem (Express, NestJS)
-- C# (.NET Core, ASP.NET)
-- Go (Basic service development)
-- Database Design & Management
-- PostgreSQL, MS SQL
-  - Database optimization
-- Working knowledge of Python/Django
-- API Design & Development
+If you have Nix with flakes support installed:
 
-### Infrastructure & DevOps
+1. Clone this repository
+   ```bash
+   git clone https://github.com/username/resume.git
+   cd resume
+   ```
 
-- Cloud Platforms & Architecture
-  - AWS (ECS, Lambda, Connect)
-  - GCP
-  - Vercel
+2. Enter the development environment
+   ```bash
+   nix develop
+   ```
 
-- Infrastructure as Code
-  - Terraform
-  - AWS CloudFormation
-  - Ansible
+3. Generate the PDF
+   ```bash
+   pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex
+   ```
 
-- Container Orchestration
-  - Docker & Docker Compose
-  - Kubernetes (Helm, ArgoCD)
+4. Alternatively, use the provided app directly
+   ```bash
+   nix run
+   ```
 
-- CI/CD Pipelines
-  - GitHub Actions
-  - BuildKite
-  - GitLab CI
+## Manual Setup
 
-## Personal Technical Exploration
+If you don't use Nix:
 
-I'm passionate about exploring new technologies and maintaining a personal homelab environment where I experiment with:
+1. Install required software:
+   - **Pandoc**: Document converter
+   - **TeX Live** (full): LaTeX distribution with XeLaTeX
 
-Elixir programming language and the BEAM ecosystem
-NixOS and Nix for reproducible system configurations
-Self-hosted infrastructure and home automation
-System administration and network management in homelab environments
+   ```bash
+   # Ubuntu/Debian
+   sudo apt-get install pandoc texlive-full
+   
+   # macOS with Homebrew
+   brew install pandoc
+   brew install --cask mactex
+   
+   # Windows
+   # Install from pandoc.org and miktex.org
+   ```
 
-These personal projects help me stay current with emerging technologies and understand systems from the ground up.
+2. Generate the PDF
+   ```bash
+   pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex
+   ```
 
-## Professional Experience
+## Updating Your Resume
 
-### Senior Software Engineer | nib Health Funds - Data & AI Team
-_March 2022 - Present_
+1. Edit `resume.md` with your updated information
+2. Regenerate the PDF as described above
+3. If you want continuous rebuilding while editing, use:
+   ```bash
+   watchexec -e md,tex "pandoc resume.md --template=resume.tex -o resume.pdf --pdf-engine=xelatex"
+   ```
 
-- Led team through the redesign and implementation of AWS Connect integration, delivering a complex solution spanning frontend, backend, and infrastructure
-- Mentored junior team members, fostering their technical growth and development
-- Improved team organizational practices and development workflows
-- Collaborated with support engineers to manage and resolve business-critical issues
-- Maintained clear communication between technical teams and business stakeholders, ensuring project visibility and alignment
+## Customizing the Template
 
-### Senior Engineer | BodyMindLife Online
-_August 2021 - March 2022_
+The `resume.tex` file contains the LaTeX template that controls the visual appearance of your resume. You can customize:
 
-- Led a development team building and maintaining the core online platform
-- Orchestrated team workflows and daily operations
-- Designed system architecture and guided technical direction
-- Spearheaded development of a new microservices-based platform on GCP
+- Margins and page layout
+- Font styles and sizes
+- Colors and formatting
+- Section styles
 
-### Web Services Engineer | SwitchdIn
-_January 2021 - August 2021_
-
-- Built and maintained a cross-platform mobile app using Angular and Ionic
-- Developed and improved internal APIs using Python and Django
-- Contributed to planning sessions and technical documentation
-- Mentored junior developers through code reviews and pair programming
-
-### Senior Software Developer | Mudbath
-_March 2020 - March 2021_
-
-- Designed and implemented robust software systems based on client requirements
-- Created and reviewed technical documentation
-- Mentored junior team members
-- Collaborated with cross-functional teams to deliver client solutions
-
-### Senior Software Developer | nib Health Funds
-_June 2019 - March 2020_
-
-- Led delivery teams and mentored junior developers
-- Developed solutions for internal and external customers
-- Designed technical solutions to address business needs
-- Collaborated across business units to ensure cohesive solution design
-
-### Software Developer | nib Health Funds
-_Jan 2017 - June 2019_
-
-- Developed and maintained customer-facing applications
-- Designed technical solutions aligned with business requirements
-- Collaborated with stakeholders to ensure successful project outcomes
-
-### Software Developer | SwitchdIn
-_2016 - 2017_
-
-- Developed frontend web applications using Angular.js
-- Managed PostgreSQL/Django backend infrastructure on AWS
-- Enhanced platform scalability and user experience
-
-### Software Developer | Forsythes Information Technology
-_2015 - 2016_
-
-- Developed web solutions using Microsoft technologies
-- Created and maintained documentation
-- Managed server infrastructure and CI/CD pipelines
-
-## Education
-
-**Bachelor of Information Technology**  
-_Newcastle University_ (2011–2014)  
-*Major: Software Development and Applications*
-
-**Diploma of Surveying**  
-_TAFE Hunter Institute_ (2009–2010)
-
-**High School Certificate**  
-_Hunter School of Performing Arts_
+After making changes to the template, regenerate the PDF to see your changes.

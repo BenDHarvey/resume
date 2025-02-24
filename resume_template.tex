@@ -1,0 +1,73 @@
+% Resume Template for Pandoc (No Section Numbers)
+% filename: resume.tex
+
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[top=0.8in, bottom=0.8in, left=0.8in, right=0.8in]{geometry} % Page margins
+\usepackage{hyperref} % For links
+\usepackage{fontspec} % For font customization
+\usepackage{titlesec} % For section formatting
+\usepackage{enumitem} % For list customization
+\usepackage{fancyhdr} % For headers and footers
+\usepackage{xcolor} % For custom colors
+
+% Remove section numbering
+\setcounter{secnumdepth}{0}
+
+% Define colors
+\definecolor{accent}{RGB}{70,130,180} % Steel Blue
+
+% Configure page style
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\renewcommand{\headrulewidth}{0pt} % Remove header rule
+\fancyfoot[C]{\thepage} % Page number at center of footer
+
+% Configure hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    filecolor=accent,
+    urlcolor=accent,
+}
+
+% Configure section formatting
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{accent}}
+  {}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+\titleformat{\subsection}
+  {\normalfont\bfseries}
+  {}{0em}{}
+\titlespacing{\subsection}{0pt}{10pt}{4pt}
+
+% Configure lists
+\setlist[itemize]{leftmargin=1.5em, label=\textbullet, itemsep=0.2em}
+
+% Define \tightlist command that Pandoc uses
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Document starts here
+\begin{document}
+
+% Title will be replaced by Pandoc with YAML header content
+$if(title)$
+\begin{center}
+{\Huge \textbf{$title$}}
+\end{center}
+$endif$
+
+% Contact info will be replaced from YAML
+$if(contact)$
+\begin{center}
+$contact$
+\end{center}
+$endif$
+
+% Main content will be filled by Pandoc from Markdown
+$body$
+
+\end{document}
